@@ -4,6 +4,26 @@ This project implements a **CycleGAN** using PyTorch for unpaired image-to-image
 
 ---
 
+## 📂 Dataset Access (Google Drive)
+
+This project uses an unpaired dataset of **Photos and Monet-style paintings** for CycleGAN training and testing.
+
+📥 **Download Dataset**  
+The full dataset (Photos & Monets) is hosted on Google Drive:
+
+🔗 [Google Drive – Photos and Monets Dataset](https://drive.google.com/drive/folders/1KkSYKqdmO1GE6gSP38UCsOrYZ7QUGj-x?usp=sharing)
+
+📁 Folder Structure:
+
+```bash
+Photo2MonetDataset/
+├── trainA/       # Real Photos
+├── trainB/       # Monet Paintings
+├── testA/        # Real Photos (test)
+└── testB/        # Monet Paintings (test)
+```
+---
+
 ## 🧾 Dataset Details
 
 | Domain A    | Domain B        |
